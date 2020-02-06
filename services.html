@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Frank & Son Landscaping</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" /> 
+  </head>
+
+    <body>
+       <!-- NAVBAR SECTION -->
+    <!-- HTML code for the navbar to be used in all links-->
+    <nav id ="navigation" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a><img src="img/logo.jpg" width="70" height="70"></a>
+  
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current) </span></a
+                >
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="galleryHero" class="jumbotron jumbotron-fluid" style="background-color:#296d38">
+          <div class="container">
+            <h1 class="display-4">Services</h1>
+          </div>
+        </div>
+<div class="container-fluid padding">
+  <div class="row padding" id="services">
+    <div class="col-lg-6">
+      <h2>Residential</h2>
+      <p>From your front yard to your backyard, we got you covered! Home is where you make it, and here at Frank & Son we plan to make it the best presentable home you'll ever have. Our residential services include anything from your simple shrub/tree trimming to paver install and grass install, which is sure to make your front/back yard the envy of the neighborhood! </p>
+      
+    </div>
+    <br>
+    <div class="col-lg-6 second" align="center">
+      <img src="img/residential.svg" class="img-fluid" id="services-img" alt="">
+    </div>
+  </div>
+</div>
+<div class="container-fluid padding">
+  <div class="row padding" id="services">
+    <div class="col-lg-6">
+      <h2>Commercial</h2>
+      <p>You have a business to run, so let Frank & Son handle your landscaping needs so you can focus on what's really important. </p>
+     
+    </div>
+    <br>
+    <div class="col-lg-6" align="center">
+      <img src="img/commercial.svg" class="img-fluid" id="services-img" alt="">
+    </div>
+  </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row padding" id="services">
+      <div class="col-lg-6">
+        <h2>Planning/Install</h2>
+        <p>We're with you every step of the way! Don't know where to start? Don't worry, send us an inquiry and one of our professional landscapers will give you a running start. With years of experience we'll offer ideas and suggestions to help make your landscaping dreams come true!</p>
+  
+      </div>
+      <br>
+      <div class="col-lg-6" align="center">
+        <img src="img/planning.svg" class="img-fluid" id="services-img" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--- Contact ---------------------------------->
+
+<section id="contact"></section>
+<div id="contact" class="container-fluid padding">
+    <!-- replace with your endoint URL -->
+    <form action="https://formspree.io/Hectoriv1994@gmail.com" method="POST">
+      <h3 style="text-align: center;">Contact Us</h3><br>
+  
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-white"><i class="fa fa-user"></i>&nbsp</span>
+          </div>
+          <input name="name" type="text" placeholder="Name" class="form-control border-left-0 name" required>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white"><i class="fa fa-envelope"></i></span>
+              </div>
+              <input name="email" type="email" placeholder="Email" class="form-control border-left-0 email" required>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white"><i class="fa fa-phone"></i></span>
+              </div>
+              <input name="phone" type="tel" placeholder="Phone" class="form-control border-left-0 phone" required>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+          <textarea class="form-control message" name="message "id="message" rows="5" placeholder="Enter message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary float-right submit">
+        <i class="fa fa-paper-plane"></i> 
+        Send
+      </button>
+    </form>
+  </div>
+  <br><br>
+
+<!-- Footer -------------------------------->
+
+<footer>
+    <div id="footer "class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/logo.png" alt="">
+          <hr class="light">
+          <p>623-606-8591</p>
+          <p>frankandsonlandscaping@gmail.com</p>
+          <p>Buckeye,AZ</p>
+        </div>
+        <div class="col-md-4">
+        <hr class="light">
+        <h5>Hours</h5>
+        <hr class="light">
+        <p>We are available Monday - Sunday</p>
+        <p>Contact us to discuss a personal timeframe!</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Service Area</h5>
+          <hr class="light">
+          <p>Phoenix, Scottsdale, Tempe, Chandler, Glendale</p>
+          <p>Peoria, Surprise, Goodyear, and more to come!</p>
+        </div>
+    </div>
+    <div class="text-center col-12">
+        <hr class="light">
+        <h5>&copy; Frank and Son Landscaping LLC.</h5>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

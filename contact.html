@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Frank & Son Landscaping</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" /> 
+  </head>
+
+    <body>
+       <!-- NAVBAR SECTION -->
+    <!-- HTML code for the navbar to be used in all links-->
+    <nav id ="navigation" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a><img src="img/logo.jpg" width="70" height="70"></a>
+  
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current) </span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="contact-hero">
+          <br><br>
+          <h1 class="display-4">Contact Us</h1>
+          <p class="lead">We look forward to working with you to implement your projects.</p>
+          <hr class="my-4">
+          <p>Fill out the contact form below or call us at:</p>
+          <a class="number" href="tel:1-623-606-8591">(623) 606-8591</a><br><br>
+        </div>
+      </div>
+
+
+
+<!--- Contact ---------------------------------->
+
+<section id="contact"></section>
+<div id="contact" class="container-fluid padding">
+    <!-- replace with your endoint URL -->
+    <form action="https://formspree.io/Hectoriv1994@gmail.com" method="POST">
+      <h3 style="text-align: center;">Contact Us</h3><br>
+  
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-white"><i class="fa fa-user"></i>&nbsp</span>
+          </div>
+          <input name="name" type="text" placeholder="Name" class="form-control border-left-0 name" required>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white"><i class="fa fa-envelope"></i></span>
+              </div>
+              <input name="email" type="email" placeholder="Email" class="form-control border-left-0 email" required>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white"><i class="fa fa-phone"></i></span>
+              </div>
+              <input name="phone" type="tel" placeholder="Phone" class="form-control border-left-0 phone" required>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+          <textarea class="form-control message" name="message "id="message" rows="5" placeholder="Enter message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary float-right submit">
+        <i class="fa fa-paper-plane"></i> 
+        Send
+      </button>
+    </form>
+  </div>
+  <br><br>
+
+<!-- Footer -------------------------------->
+
+<footer>
+    <div id="footer "class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/logo.png" alt="">
+          <hr class="light">
+          <p>623-606-8591</p>
+          <p>frankandsonlandscaping@gmail.com</p>
+          <p>Buckeye,AZ</p>
+        </div>
+        <div class="col-md-4">
+        <hr class="light">
+        <h5>Hours</h5>
+        <hr class="light">
+        <p>We are available Monday - Sunday</p>
+        <p>Contact us to discuss a personal timeframe!</p>
+        </div>
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Service Ara</h5>
+          <hr class="light">
+          <p>Phoenix, Scottsdale, Tempe, Chandler, Glendale</p>
+          <p>Peoria, Surprise, Goodyear, and more to come!</p>
+        </div>
+    </div>
+    <div class="text-center col-12">
+        <hr class="light">
+        <h5>&copy; Frank and Son Landscaping LLC.</h5>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

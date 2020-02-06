@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+/*   All navbar styling  */
+
+.navbar {
+  padding: 0.1rem;
+  position: fixed;
+  z-index: 2000;
+  width: 100%;
+}
+
+.bg-light {
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0px;
+  font-size: 16px;
+  height: 100%;
+}
+
+nav li a {
+  padding: 28px 20px !important;
+  color: aliceblue !important;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+nav li a:hover {
+  transition: 0.3s ease;
+  background-color: #fff;
+  color: rgb(16, 173, 16) !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(15, 15, 15, 0.01);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(16, 173, 16)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Style for the carousel ************/
+.btn-mid {
+  display: inline-block;
+  margin: 0 3px;
+  padding: 8px 21px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #979592 !important;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-mid:hover {
+  background-color: black;
+  color: white !important;
+  border: none;
+}
+
+#slides {
+  height: 100vh !important;
+}
+
+#slides .carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+#slides .carousel-inner img {
+  object-fit: cover;
+  min-width: 100%;
+  height: 100vh;
+  opacity: 1;
+}
+
+/*   Overlay***********************/
+.overlay {
+  color: #fff;
+  position: absolute;
+  z-index: 12;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+#callUs {
+  text-transform: none;
+  text-decoration: none;
+}
+
+/*  Social Media Icons**************/
+
+.s-m {
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+  max-width: 175px;
+}
+
+.s-m a {
+  text-decoration: none;
+  font-size: 35px;
+  color: #f1f1f1;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  transition: 0.4s all;
+  line-height: 65px;
+  cursor: pointer;
+  background: #006eff;
+  border-radius: 30%;
+}
+
+.s-m a:hover {
+  transform: scale(1.3);
+}
+
+/* Under hero Home section***************/
+
+.container-fluid {
+  max-width: 1400px;
+}
+
+#contact {
+  max-width: 1000px !important;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+/*   Welcome Section**********************/
+
+.jumbotron-fluid {
+  padding: 1rem;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgb(42, 42, 42);
+  align-content: center;
+}
+
+.welcome {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  background-color: black;
+  outline: none !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgb(50, 195, 50);
+}
+/* Services Icons****************/
+
+.fa-cut {
+  color: rgb(246, 179, 54);
+}
+
+.fa-cube {
+  color: gray;
+}
+
+.fa-pagelines {
+  color: green;
+}
+
+.fa-cut,
+.fa-cube,
+.fa-pagelines {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+/* Gallery Styling*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+}
+.cards h1 {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.cards img {
+  margin: 8px;
+  transition: all 1s;
+  width: 330px;
+}
+
+.cards img:hover {
+  transform: scale(1.05);
+}
+
+.img-heading {
+  width: 100%;
+}
+
+#galleryHero {
+  padding-top: 85px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.jumbo-container {
+  max-width: 1400px;
+}
+
+.display-4 {
+  max-width: 1400px;
+}
+
+#carouselGallery .carousel-inner {
+  max-width: 900px;
+  max-height: auto;
+  margin: auto;
+}
+
+#carouselGallery {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* End of Gallery Styling*/
+
+/* Footer styling */
+
+footer {
+  background-color: rgb(42, 42, 42);
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+footer img {
+  height: 56px;
+  width: 56px;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin: auto;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* ----------Contact PAGE Styling ------------- */
+
+.contact-hero {
+  max-width: 1400px;
+  color: black;
+  margin: auto;
+}
+
+.number {
+  color: rgb(3, 156, 49);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* ----------Service PAGE Styling ------------- */
+
+#services {
+  margin: auto;
+}
+
+#services-img {
+  filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
+  max-width: 360px;
+}
+
+.second {
+  align-items: center;
+}
+
+/*---Media Queries (for responsiveness) --*/
+@media (min-width: 992px) {
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 3rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1380px;
+  }
+}
